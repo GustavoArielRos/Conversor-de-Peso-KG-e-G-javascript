@@ -1,0 +1,50 @@
+
+
+/*faz o background da página*/
+body{
+    font-family: serif ;
+    
+    background: linear-gradient(to left, #0d63d4, #07326b);
+}
+
+/*posicionando a div*/
+#principal{
+    margin: 0 auto;
+    
+    display: table;
+    text-align: center;
+}
+
+/*posicionando o botão converter*/
+#convert{
+    position: relative;
+    top:10px;
+    left:2px;
+    background-color: #31aafb;
+    font-size: large;
+}
+
+
+/*posicionando o botão reset*/
+#reset{
+    position: relative;
+    top:10px;
+    left:5px;
+    background-color: #fb6031;
+    font-size: large;
+}
+
+/*posicionando os inputs*/
+input{
+    display: block;/*coloca eles como uma fila na vertical*/
+    font-size: x-large;
+    
+}
+
+/*estilizando o título*/
+h1{
+    font-family: cursive ;
+    color: rgb(212, 49, 49);
+    
+    text-shadow: 1px 1px 1px rgb(245, 242, 242);
+}
